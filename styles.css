@@ -28,7 +28,6 @@ h3 {
   margin-top: 0;
 }
 
-
 /* 1) Row Of 4 Boxes */
 
 .flex-row {
@@ -43,7 +42,6 @@ h3 {
   background: white;
   margin: 5px;
 }
-
 
 /* 2) Center a div*/
 .center-box {
@@ -61,7 +59,6 @@ h3 {
   padding: 15px;
 }
 
-
 /* 3) Equal-width columns  */
 .equal-columns {
   display: flex;
@@ -73,7 +70,6 @@ h3 {
   color: white;
   padding: 15px;
 }
-
 
 /* 4) Wrapping tag pills */
 
@@ -106,16 +102,49 @@ h3 {
   text-align: center;
   padding-top: 5px;
 }
-.align-self-demo__item--1 { background: #2ecc71; height: 40px; }
-.align-self-demo__item--2 { background: #3498db; height: 40px; }
-.align-self-demo__item--3 { background: #9b59b6; height: 40px; }
-.align-self-demo__item--4 { background: #34495e; align-self: stretch; }
-.align-self-demo__item--5 { background: #f0ad00; align-self: center; height: 30px; }
-.align-self-demo__item--6 { background: #e74c3c; height: 40px; }
-.align-self-demo__item--7 { background: #c0392b; height: 40px; }
-.align-self-demo__item--8 { background: #95a5a6; height: 40px; }
-.align-self-demo__item--9 { background: #2ecc71; height: 40px; }
-.align-self-demo__item--10 { background: #16a085; align-self: flex-end; height: 40px; width: 60px; }
+.align-self-demo__item--1 {
+  background: #2ecc71;
+  height: 40px;
+}
+.align-self-demo__item--2 {
+  background: #3498db;
+  height: 40px;
+}
+.align-self-demo__item--3 {
+  background: #9b59b6;
+  height: 40px;
+}
+.align-self-demo__item--4 {
+  background: #34495e;
+  align-self: stretch;
+}
+.align-self-demo__item--5 {
+  background: #f0ad00;
+  align-self: center;
+  height: 30px;
+}
+.align-self-demo__item--6 {
+  background: #e74c3c;
+  height: 40px;
+}
+.align-self-demo__item--7 {
+  background: #c0392b;
+  height: 40px;
+}
+.align-self-demo__item--8 {
+  background: #95a5a6;
+  height: 40px;
+}
+.align-self-demo__item--9 {
+  background: #2ecc71;
+  height: 40px;
+}
+.align-self-demo__item--10 {
+  background: #16a085;
+  align-self: flex-end;
+  height: 40px;
+  width: 60px;
+}
 
 /* 6) App page: header / main / footer */
 
@@ -133,7 +162,10 @@ h3 {
   background: #fafafa;
   border-bottom: 1px solid #eee;
 }
-.app-page__footer { border-top: 1px solid #eee; border-bottom: none; }
+.app-page__footer {
+  border-top: 1px solid #eee;
+  border-bottom: none;
+}
 .app-page__header a,
 .app-page__footer a {
   margin: 0 8px;
@@ -169,15 +201,27 @@ h3 {
   border-bottom: 1px solid #eee;
   padding: 8px 16px;
 }
-.video-site__logo { font-weight: bold; color: #ff0000; }
-.video-site__header input { flex: 1; max-width: 400px; margin: 0 20px; padding: 6px; }
-.video-site__body { display: flex; }
+.video-site__logo {
+  font-weight: bold;
+  color: #ff0000;
+}
+.video-site__header input {
+  flex: 1;
+  max-width: 400px;
+  margin: 0 20px;
+  padding: 6px;
+}
+.video-site__body {
+  display: flex;
+}
 .video-site__sidebar {
   width: 150px;
   background: #f9f9f9;
   padding: 10px;
 }
-.video-site__sidebar div { padding: 6px 0; }
+.video-site__sidebar div {
+  padding: 6px 0;
+}
 .video-site__grid {
   flex: 1;
   display: flex;
@@ -205,11 +249,39 @@ h3 {
   gap: 4px;
   min-height: 400px;
 }
-.site-grid__header  { grid-area: header;  background: #ffd400; padding: 15px; text-align: center; color: white; }
-.site-grid__sidebar { grid-area: sidebar; background: #ff6f4d; padding: 15px; color: white; }
-.site-grid__nav     { grid-area: nav;     background: #00c8f0; padding: 15px; text-align: center; color: white; }
-.site-grid__article { grid-area: article; background: #b9c4d6; padding: 15px; color: white; }
-.site-grid__footer  { grid-area: footer;  background: #3a3f4b; padding: 15px; text-align: center; color: white; }
+.site-grid__header {
+  grid-area: header;
+  background: #ffd400;
+  padding: 15px;
+  text-align: center;
+  color: white;
+}
+.site-grid__sidebar {
+  grid-area: sidebar;
+  background: #ff6f4d;
+  padding: 15px;
+  color: white;
+}
+.site-grid__nav {
+  grid-area: nav;
+  background: #00c8f0;
+  padding: 15px;
+  text-align: center;
+  color: white;
+}
+.site-grid__article {
+  grid-area: article;
+  background: #b9c4d6;
+  padding: 15px;
+  color: white;
+}
+.site-grid__footer {
+  grid-area: footer;
+  background: #3a3f4b;
+  padding: 15px;
+  text-align: center;
+  color: white;
+}
 
 /* 9) Photo gallery (2x2) */
 .photo-gallery {
@@ -227,13 +299,50 @@ h3 {
   position: absolute;
   top: 8px;
   right: 8px;
-  background: rgba(0,0,0,0.6);
+  background: rgba(0, 0, 0, 0.6);
   color: white;
   padding: 2px 8px;
   font-size: 12px;
   border-radius: 3px;
 }
-.photo-gallery__card--forest    { background-color: #d9603b; }
-.photo-gallery__card--abstract  { background-color: #7fd1c9; }
-.photo-gallery__card--paris     { background-color: #5a8fd6; }
-.photo-gallery__card--portrait  { background-color: #b08968; }
+.photo-gallery__card--forest {
+  background-color: #d9603b;
+}
+.photo-gallery__card--abstract {
+  background-color: #7fd1c9;
+}
+.photo-gallery__card--paris {
+  background-color: #5a8fd6;
+}
+.photo-gallery__card--portrait {
+  background-color: #b08968;
+}
+
+/* 10) Nested grid */
+.nested-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 150px;
+  gap: 8px;
+}
+.nested-grid__cell {
+  background: #eee;
+  border: 1px solid #ccc;
+  padding: 6px;
+  font-size: 13px;
+  color: #555;
+}
+.nested-grid__sub-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4px;
+  height: 100%;
+}
+.nested-grid__sub-grid--single-column {
+  grid-template-columns: 1fr;
+}
+.nested-grid__sub-cell {
+  background: #ddd;
+  padding: 4px 8px;
+  font-size: 12px;
+}
