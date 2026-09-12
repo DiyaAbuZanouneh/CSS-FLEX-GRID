@@ -74,3 +74,18 @@ h3 {
   padding: 15px;
 }
 
+
+/* 4) Wrapping tag pills */
+
+.tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.tag-list__item {
+  background: #4a6f8a;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 20px;
+  border: 1px solid #6f93ab;
+}
