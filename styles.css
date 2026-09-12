@@ -156,3 +156,38 @@ h3 {
   margin: 0 5px;
   padding: 6px 12px;
 }
+
+/* 7) Video site (YouTube mock) */
+.video-site {
+  border: 1px solid #ccc;
+}
+.video-site__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+  border-bottom: 1px solid #eee;
+  padding: 8px 16px;
+}
+.video-site__logo { font-weight: bold; color: #ff0000; }
+.video-site__header input { flex: 1; max-width: 400px; margin: 0 20px; padding: 6px; }
+.video-site__body { display: flex; }
+.video-site__sidebar {
+  width: 150px;
+  background: #f9f9f9;
+  padding: 10px;
+}
+.video-site__sidebar div { padding: 6px 0; }
+.video-site__grid {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding: 12px;
+}
+.video-site__thumbnail {
+  width: 160px;
+  height: 100px;
+  background: #ddd;
+  border-radius: 6px;
+}
