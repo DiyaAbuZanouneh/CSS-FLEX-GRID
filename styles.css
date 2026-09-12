@@ -210,3 +210,30 @@ h3 {
 .site-grid__nav     { grid-area: nav;     background: #00c8f0; padding: 15px; text-align: center; color: white; }
 .site-grid__article { grid-area: article; background: #b9c4d6; padding: 15px; color: white; }
 .site-grid__footer  { grid-area: footer;  background: #3a3f4b; padding: 15px; text-align: center; color: white; }
+
+/* 9) Photo gallery (2x2) */
+.photo-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+}
+.photo-gallery__card {
+  position: relative;
+  height: 180px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+.photo-gallery__badge {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: rgba(0,0,0,0.6);
+  color: white;
+  padding: 2px 8px;
+  font-size: 12px;
+  border-radius: 3px;
+}
+.photo-gallery__card--forest    { background-color: #d9603b; }
+.photo-gallery__card--abstract  { background-color: #7fd1c9; }
+.photo-gallery__card--paris     { background-color: #5a8fd6; }
+.photo-gallery__card--portrait  { background-color: #b08968; }
