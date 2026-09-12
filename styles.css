@@ -191,3 +191,22 @@ h3 {
   background: #ddd;
   border-radius: 6px;
 }
+
+/* 8) Site grid: Header / Sidebar / Nav / Article / Footer */
+.site-grid {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  grid-template-rows: auto auto 1fr auto;
+  grid-template-areas:
+    "header  header"
+    "sidebar nav"
+    "sidebar article"
+    "footer  footer";
+  gap: 4px;
+  min-height: 400px;
+}
+.site-grid__header  { grid-area: header;  background: #ffd400; padding: 15px; text-align: center; color: white; }
+.site-grid__sidebar { grid-area: sidebar; background: #ff6f4d; padding: 15px; color: white; }
+.site-grid__nav     { grid-area: nav;     background: #00c8f0; padding: 15px; text-align: center; color: white; }
+.site-grid__article { grid-area: article; background: #b9c4d6; padding: 15px; color: white; }
+.site-grid__footer  { grid-area: footer;  background: #3a3f4b; padding: 15px; text-align: center; color: white; }
