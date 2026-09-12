@@ -89,3 +89,31 @@ h3 {
   border-radius: 20px;
   border: 1px solid #6f93ab;
 }
+
+/* 5) align-self demo */
+
+.align-self-demo {
+  display: flex;
+  align-items: flex-start;
+  height: 350px;
+  border: 3px solid #f0ad00;
+  padding: 10px;
+  gap: 4px;
+}
+.align-self-demo__item {
+  width: 30px;
+  color: white;
+  text-align: center;
+  padding-top: 5px;
+}
+.align-self-demo__item--1 { background: #2ecc71; height: 40px; }
+.align-self-demo__item--2 { background: #3498db; height: 40px; }
+.align-self-demo__item--3 { background: #9b59b6; height: 40px; }
+.align-self-demo__item--4 { background: #34495e; align-self: stretch; }
+.align-self-demo__item--5 { background: #f0ad00; align-self: center; height: 30px; }
+.align-self-demo__item--6 { background: #e74c3c; height: 40px; }
+.align-self-demo__item--7 { background: #c0392b; height: 40px; }
+.align-self-demo__item--8 { background: #95a5a6; height: 40px; }
+.align-self-demo__item--9 { background: #2ecc71; height: 40px; }
+.align-self-demo__item--10 { background: #16a085; align-self: flex-end; height: 40px; width: 60px; }
+
