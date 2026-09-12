@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+  margin: 20px;
+  padding: 20px;
+  color: #222;
+}
+
+section {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+h2 {
+  color: #ff7900;
+  border-bottom: 2px solid #ff7900;
+  padding-bottom: 8px;
+}
+
+h3 {
+  margin-top: 0;
+}
+
+/* 1) Row Of 4 Boxes */
+
+.flex-row {
+  display: flex;
+  background: purple;
+  padding: 20px;
+}
+
+.flex-row__box {
+  width: 200px;
+  height: 200px;
+  background: white;
+  margin: 5px;
+}
